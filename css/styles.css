@@ -41,7 +41,7 @@ html,body {
 }
 .avatar-prof {
   /* border-radius: 50%; */
-  width: 3vw;
+  width: 5vw;
 }
 h1 {
   color:#173753;
@@ -91,10 +91,10 @@ p {
 
 }
 .aldrich-font {
-  font-family: 'Aldrich';font-size: 22px;
+font-size: 22px;
 }
 .aldrich-font-small {
-  font-family: 'Aldrich';font-size: 15px;
+font-size: 15px;
 }
 .area{
   background: #FFFFFF;
