@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="fr">
 
+
+
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,6 +17,8 @@
   <meta property="og:type" content="profile">
   <meta property="og:title" content="ES-SAYEH Rabie — Gen AI Software Engineer">
   <meta property="og:description" content="LLM, agents IA & MLOps — expériences, compétences et projets IA.">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:locale:alternate" content="en_US">
 
   <link rel="icon"
     href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%23173753'/%3E%3Ctext%20x='32'%20y='45'%20font-family='Arial,Helvetica,sans-serif'%20font-size='38'%20font-weight='bold'%20fill='%234392F1'%20text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
@@ -27,18 +32,26 @@
 </head>
 
 <body>
-  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <a class="skip-link" href="#contenu" data-i18n="skip">Aller au contenu</a>
 
   <header class="site-header">
     <div class="bar">
       <div class="wordmark"><span>ES-SAYEH</span> Rabie</div>
-      <nav class="nav" aria-label="Navigation principale">
-        <a href="#profil">Profil</a>
-        <a href="#experiences">Expériences</a>
-        <a href="#competences">Compétences</a>
-        <a href="#projets">Projets</a>
-        <a href="#parcours">Parcours</a>
-      </nav>
+      <div class="bar__right">
+        <nav class="nav" aria-label="Navigation principale" data-i18n-aria-label="nav.aria">
+          <a href="#profil" data-i18n="nav.profile">Profil</a>
+          <a href="#experiences" data-i18n="nav.experiences">Expériences</a>
+          <a href="#competences" data-i18n="nav.skills">Compétences</a>
+          <a href="#projets" data-i18n="nav.projects">Projets</a>
+          <a href="#parcours" data-i18n="nav.education">Parcours</a>
+        </nav>
+        <div class="lang-switch" role="group" aria-label="Sélecteur de langue / Language selector">
+          <button type="button" class="lang-btn" data-lang="fr" aria-pressed="true" aria-label="Passer en français">🇫🇷
+            FR</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false"
+            aria-label="Switch to English">🇬🇧 EN</button>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -47,33 +60,34 @@
 
       <!-- ============ Profil ============ -->
       <section class="hero" id="profil">
-        <img class="hero__avatar" src="img/1.png" alt="Portrait d'ES-SAYEH Rabie">
+        <img class="hero__avatar" src="img/1.png" alt="Portrait d'ES-SAYEH Rabie" data-i18n-alt="hero.avatarAlt">
         <div class="hero__body">
           <h1 class="hero__name">ES-SAYEH Rabie</h1>
-          <p class="hero__title">Gen AI Software Engineer — LLM, Agents IA &amp; MLOps</p>
+          <p class="hero__title" data-i18n="hero.title">Gen AI Software Engineer — LLM, Agents IA &amp; MLOps</p>
           <p class="hero__meta">
-            <span><i class="fa-solid fa-location-dot" aria-hidden="true"></i> La Rochelle, France · Mobile en France</span>
-            <span><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Disponible à partir d'octobre 2026</span>
+            <span data-i18n-html="hero.location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> La
+              Rochelle, France</span>
+            <span data-i18n-html="hero.available"><i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+              Disponible immédiatement</span> 
           </p>
-          <p class="hero__bio">
-            Gen AI Software Engineer spécialisé dans les solutions GenAI et les agents IA, de la conception à la mise en
-            production. J'ai développé des plateformes SaaS multi-tenant (FastAPI, LangGraph, RAG) avec déploiement
-            conteneurisé (Docker) et une architecture orientée besoins métier. Utilisateur quotidien de Claude Code pour
-            accélérer le prototypage et le développement, je porte un projet du cadrage jusqu'au run en autonomie et je
-            transforme des besoins métier complexes en produits IA concrets et maintenables. Actuellement AI Research
-            Engineer à l'Université de La Rochelle, sur l'IA appliquée aux sciences des matériaux.
+          <p class="hero__bio" data-i18n="hero.bio">
+
+            AI Engineer spécialisé en solutions GenAI et agents IA, de la conception à la mise en production. Expérience en développement
+            de plateformes SaaS multi-tenant (FastAPI, LangGraph, RAG), déploiement conteneurisé (Docker) et architecture orientée
+            besoins métier. À l'aise pour porter un projet du cadrage jusqu'au run, en autonomie, et pour transformer des besoins métier complexes en produits IA concrets et
+            maintenables.
           </p>
           <div class="contacts">
-            <a href="docs/CV_Es-Sayeh_Rabie.pdf" target="_blank" rel="noopener" aria-label="Ouvrir le CV au format PDF"
-              title="CV (PDF)"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i></a>
             <a href="https://github.com/rabieessayeh" target="_blank" rel="noopener" aria-label="Profil GitHub"
-              title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/rabie-es-sayeh-999357221" target="_blank" rel="noopener"
-              aria-label="Profil LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
-            <a href="mailto:essayeh.rb@gmail.com" aria-label="Envoyer un e-mail" title="essayeh.rb@gmail.com"><i
-                class="fa-solid fa-envelope" aria-hidden="true"></i></a>
-            <a href="tel:+33695253279" aria-label="Appeler" title="+33 6 95 25 32 79"><i class="fa-solid fa-phone"
+              data-i18n-aria-label="contacts.github" title="GitHub"><i class="fa-brands fa-github"
                 aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/rabie-es-sayeh-999357221" target="_blank" rel="noopener"
+              aria-label="Profil LinkedIn" data-i18n-aria-label="contacts.linkedin" title="LinkedIn"><i
+                class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+            <a href="mailto:essayeh.rb@gmail.com" aria-label="Envoyer un e-mail" data-i18n-aria-label="contacts.email"
+              title="essayeh.rb@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+            <a href="tel:+33695253279" aria-label="Appeler" data-i18n-aria-label="contacts.phone"
+              title="+33 6 95 25 32 79"><i class="fa-solid fa-phone" aria-hidden="true"></i></a>
             <a href="https://api.whatsapp.com/send?phone=33695253279" target="_blank" rel="noopener" aria-label="WhatsApp"
               title="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
           </div>
@@ -82,56 +96,63 @@
 
       <!-- ============ Expériences ============ -->
       <section class="section" id="experiences" aria-labelledby="h-exp">
-        <h2 id="h-exp">Expériences professionnelles</h2>
+        <h2 id="h-exp" data-i18n="exp.h2">Expériences professionnelles</h2>
 
         <article class="entry">
           <div class="entry__head">
-            <span><span class="entry__role">AI Research Engineer</span> · <span class="entry__org">Université de La
-                Rochelle</span></span>
-            <span class="entry__date">Oct. 2024 – Sept. 2026</span>
+            <span><span class="entry__role">AI Research Engineer</span> · <span class="entry__org"
+                data-i18n="exp.e1.org">Université de La Rochelle</span></span>
+            <span class="entry__date" data-i18n="exp.e1.date">Oct. 2024 – Sept. 2026</span>
           </div>
-          <p class="entry__subtitle">Intelligence artificielle appliquée aux sciences des matériaux</p>
+          <p class="entry__subtitle" data-i18n="exp.e1.subtitle">Intelligence artificielle appliquée aux sciences des
+            matériaux</p>
           <ul>
-            <li>Conception et entraînement de modèles de Deep Learning sous PyTorch pour des problématiques de prédiction
-              et de conception inverse.</li>
-            <li>Développement de modèles génératifs conditionnels (architectures CVAE) générant des structures compatibles
-              avec des propriétés cibles.</li>
-            <li>Construction de pipelines de données reproductibles : prétraitement, normalisation, entraînement,
-              validation, analyse des performances.</li>
-            <li>Intégration de contraintes physiques et de résultats de simulations numériques dans les modèles de Machine
-              Learning.</li>
-            <li>Optimisation des hyperparamètres, analyse des limites des modèles et mise en place de protocoles
-              d'évaluation.</li>
-            <li>Rédaction de documentation technique et présentation des résultats devant des comités scientifiques.</li>
+            <li data-i18n="exp.e1.b1">Conception et entraînement de modèles de Deep Learning sous PyTorch pour des
+              problématiques de prédiction et de conception inverse.</li>
+            <li data-i18n="exp.e1.b2">Développement de modèles génératifs conditionnels (architectures CVAE) générant des
+              structures compatibles avec des propriétés cibles.</li>
+            <li data-i18n="exp.e1.b3">Construction de pipelines de données reproductibles : prétraitement, normalisation,
+              entraînement, validation, analyse des performances.</li>
+            <li data-i18n="exp.e1.b4">Intégration de contraintes physiques et de résultats de simulations numériques dans
+              les modèles de Machine Learning.</li>
+            <li data-i18n="exp.e1.b5">Optimisation des hyperparamètres, analyse des limites des modèles et mise en place
+              de protocoles d'évaluation.</li>
+            <li data-i18n="exp.e1.b6">Rédaction de documentation technique et présentation des résultats devant des
+              comités scientifiques.</li>
           </ul>
         </article>
 
         <article class="entry">
           <div class="entry__head">
             <span><span class="entry__role">Python Developer</span> · <span class="entry__org">WIT'INNOV</span>
-              <span class="entry__note">(PME industrielle)</span></span>
-            <span class="entry__date">Juil. 2025 – Août 2025</span>
+              <span class="entry__note" data-i18n="exp.e2.note">(PME industrielle)</span></span>
+            <span class="entry__date" data-i18n="exp.e2.date">Juil. 2025 – Août 2025</span>
           </div>
           <ul>
-            <li>Développement d'un outil Python automatisant la génération de schémas SQL à partir de fichiers Excel, CSV
-              et TXT.</li>
-            <li>Inférence automatique des types, détection des clés primaires, des contraintes et des index.</li>
-            <li>Intégration de Python avec Excel et VBA à l'aide de pandas, openpyxl et xlwings.</li>
-            <li>Réduction du temps nécessaire à la création de bases de données relationnelles à partir de fichiers
-              tabulaires.</li>
+            <li data-i18n="exp.e2.b1">Développement d'un outil Python automatisant la génération de schémas SQL à partir
+              de fichiers Excel, CSV et TXT.</li>
+            <li data-i18n="exp.e2.b2">Inférence automatique des types, détection des clés primaires, des contraintes et
+              des index.</li>
+            <li data-i18n="exp.e2.b3">Intégration de Python avec Excel et VBA à l'aide de pandas, openpyxl et xlwings.
+            </li>
+            <li data-i18n="exp.e2.b4">Réduction du temps nécessaire à la création de bases de données relationnelles à
+              partir de fichiers tabulaires.</li>
           </ul>
         </article>
 
         <article class="entry">
           <div class="entry__head">
-            <span><span class="entry__role">Data Scientist</span> · <span class="entry__org">Laboratoire LaSIE, Université
-                de La Rochelle</span></span>
-            <span class="entry__date">Fév. 2024 – Juil. 2024</span>
+            <span><span class="entry__role">Data Scientist</span> · <span class="entry__org" data-i18n="exp.e3.org">
+                Laboratoire LaSIE, Université de La Rochelle</span></span>
+            <span class="entry__date" data-i18n="exp.e3.date">Fév. 2024 – Juil. 2024</span>
           </div>
           <ul>
-            <li>Génération, structuration et prétraitement de jeux de données issus de simulations scientifiques.</li>
-            <li>Développement d'un prototype de modèle génératif pour la résolution d'un problème inverse.</li>
-            <li>Mise en place d'expérimentations comparatives et analyse des performances des modèles.</li>
+            <li data-i18n="exp.e3.b1">Génération, structuration et prétraitement de jeux de données issus de simulations
+              scientifiques.</li>
+            <li data-i18n="exp.e3.b2">Développement d'un prototype de modèle génératif pour la résolution d'un problème
+              inverse.</li>
+            <li data-i18n="exp.e3.b3">Mise en place d'expérimentations comparatives et analyse des performances des
+              modèles.</li>
           </ul>
         </article>
 
@@ -139,48 +160,55 @@
           <div class="entry__head">
             <span><span class="entry__role">Data Engineer &amp; BI Consultant</span> · <span
                 class="entry__org">WIT'INNOV</span>
-              <span class="entry__note">(PME industrielle)</span></span>
-            <span class="entry__date">Juin 2023 – Sept. 2023</span>
+              <span class="entry__note" data-i18n="exp.e4.note">(PME industrielle)</span></span>
+            <span class="entry__date" data-i18n="exp.e4.date">Juin 2023 – Sept. 2023</span>
           </div>
           <ul>
-            <li>Conception de schémas d'entrepôts de données et développement de pipelines ETL.</li>
-            <li>Création de tableaux de bord Power BI destinés au pilotage décisionnel (SSIS, SSAS).</li>
-            <li>Déploiement et personnalisation de modules Odoo dans plusieurs environnements.</li>
-            <li>Automatisation et optimisation de traitements de données.</li>
+            <li data-i18n="exp.e4.b1">Conception de schémas d'entrepôts de données et développement de pipelines ETL.
+            </li>
+            <li data-i18n="exp.e4.b2">Création de tableaux de bord Power BI destinés au pilotage décisionnel (SSIS,
+              SSAS).</li>
+            <li data-i18n="exp.e4.b3">Déploiement et personnalisation de modules Odoo dans plusieurs environnements.</li>
+            <li data-i18n="exp.e4.b4">Automatisation et optimisation de traitements de données.</li>
           </ul>
         </article>
       </section>
 
       <!-- ============ Compétences ============ -->
       <section class="section" id="competences" aria-labelledby="h-comp">
-        <h2 id="h-comp">Compétences techniques</h2>
+        <h2 id="h-comp" data-i18n="skills.h2">Compétences techniques</h2>
         <div class="skills">
 
           <div class="skillgroup">
             <div class="skillgroup__label">Generative AI &amp; Agents</div>
             <div class="chips">
               <span class="chip">LLM</span><span class="chip">RAG</span><span class="chip">AI Agents</span><span
-                class="chip">Tool Calling</span><span class="chip">Prompt Engineering</span><span class="chip">Mémoire
-                conversationnelle</span><span class="chip">Orchestration de workflows</span><span
-                class="chip">LangChain</span><span class="chip">LangGraph</span><span class="chip">Hugging Face
+                class="chip">Tool Calling</span><span class="chip">Prompt Engineering</span><span class="chip"
+                data-i18n="chip.conversationalMemory">Mémoire
+                conversationnelle</span><span class="chip" data-i18n="chip.workflowOrchestration">Orchestration de
+                workflows</span><span class="chip">LangChain</span><span class="chip">LangGraph</span><span
+                class="chip">Hugging Face
                 Transformers</span>
             </div>
           </div>
 
           <div class="skillgroup">
-            <div class="skillgroup__label">Outils de développement assisté par IA</div>
+            <div class="skillgroup__label" data-i18n="skills.groupAiTools">Outils de développement assisté par IA</div>
             <div class="chips">
-              <span class="chip">Claude Code (usage quotidien)</span><span class="chip">Assistants de programmation basés
+              <span class="chip" data-i18n="chip.claudeCode">Claude Code (usage quotidien)</span><span class="chip"
+                data-i18n="chip.llmAssistants">Assistants de programmation basés
                 sur les LLM</span>
             </div>
           </div>
 
           <div class="skillgroup">
-            <div class="skillgroup__label">Backend &amp; développement logiciel</div>
+            <div class="skillgroup__label" data-i18n="skills.groupBackend">Backend &amp; développement logiciel</div>
             <div class="chips">
               <span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">REST APIs</span><span
-                class="chip">Programmation orientée objet</span><span class="chip">Architecture modulaire</span><span
-                class="chip">Gestion des erreurs</span><span class="chip">Documentation technique</span>
+                class="chip" data-i18n="chip.oop">Programmation orientée objet</span><span class="chip"
+                data-i18n="chip.modularArch">Architecture modulaire</span><span class="chip"
+                data-i18n="chip.errorHandling">Gestion des erreurs</span><span class="chip"
+                data-i18n="chip.techDocs">Documentation technique</span>
             </div>
           </div>
 
@@ -188,8 +216,10 @@
             <div class="skillgroup__label">MLOps &amp; production</div>
             <div class="chips">
               <span class="chip">Docker</span><span class="chip">MLflow</span><span class="chip">Git</span><span
-                class="chip">CI/CD</span><span class="chip">Model Deployment</span><span class="chip">Monitoring de
-                modèles</span><span class="chip">Data Drift</span><span class="chip">Reproductibilité des
+                class="chip">CI/CD</span><span class="chip">Model Deployment</span><span class="chip"
+                data-i18n="chip.modelMonitoring">Monitoring de
+                modèles</span><span class="chip">Data Drift</span><span class="chip"
+                data-i18n="chip.experimentReproducibility">Reproductibilité des
                 expérimentations</span>
             </div>
           </div>
@@ -197,7 +227,8 @@
           <div class="skillgroup">
             <div class="skillgroup__label">Machine Learning &amp; Deep Learning</div>
             <div class="chips">
-              <span class="chip">PyTorch</span><span class="chip">Scikit-learn</span><span class="chip">Modèles
+              <span class="chip">PyTorch</span><span class="chip">Scikit-learn</span><span class="chip"
+                data-i18n="chip.generativeModels">Modèles
                 génératifs</span><span class="chip">NLP</span><span class="chip">Computer Vision</span><span
                 class="chip">Reinforcement Learning</span><span class="chip">Feature Engineering</span><span
                 class="chip">Model Evaluation</span>
@@ -205,7 +236,7 @@
           </div>
 
           <div class="skillgroup">
-            <div class="skillgroup__label">Développement web</div>
+            <div class="skillgroup__label" data-i18n="skills.groupWeb">Développement web</div>
             <div class="chips">
               <span class="chip">React</span><span class="chip">Next.js</span><span class="chip">JavaScript</span><span
                 class="chip">HTML</span><span class="chip">CSS</span>
@@ -216,8 +247,8 @@
             <div class="skillgroup__label">Data Engineering &amp; Big Data</div>
             <div class="chips">
               <span class="chip">ETL</span><span class="chip">Data Pipelines</span><span class="chip">Apache
-                Spark</span><span class="chip">Kafka</span><span class="chip">Hadoop</span><span
-                class="chip">Prétraitement de données</span>
+                Spark</span><span class="chip">Kafka</span><span class="chip">Hadoop</span><span class="chip"
+                data-i18n="chip.dataPreprocessing">Prétraitement de données</span>
             </div>
           </div>
 
@@ -225,12 +256,12 @@
             <div class="skillgroup__label">Cloud &amp; Infrastructure</div>
             <div class="chips">
               <span class="chip">AWS</span><span class="chip">Microsoft Azure</span><span class="chip">Google Cloud
-                Platform</span><span class="chip">Conteneurisation</span>
+                Platform</span><span class="chip" data-i18n="chip.containerization">Conteneurisation</span>
             </div>
           </div>
 
           <div class="skillgroup">
-            <div class="skillgroup__label">Bases de données</div>
+            <div class="skillgroup__label" data-i18n="skills.groupDb">Bases de données</div>
             <div class="chips">
               <span class="chip">MongoDB</span><span class="chip">PostgreSQL</span><span class="chip">MySQL</span><span
                 class="chip">SQL Server</span><span class="chip">Oracle</span><span class="chip">PL/SQL</span>
@@ -238,7 +269,7 @@
           </div>
 
           <div class="skillgroup">
-            <div class="skillgroup__label">Autres langages</div>
+            <div class="skillgroup__label" data-i18n="skills.groupOtherLangs">Autres langages</div>
             <div class="chips">
               <span class="chip">C / C++</span><span class="chip">Java</span>
             </div>
@@ -257,22 +288,26 @@
 
       <!-- ============ Projets ============ -->
       <section class="section" id="projets" aria-labelledby="h-proj">
-        <h2 id="h-proj">Projets IA sélectionnés</h2>
+        <h2 id="h-proj" data-i18n="projects.h2">Projets IA sélectionnés</h2>
 
         <article class="entry">
           <div class="entry__head">
             <span class="entry__role">AI Sales Assistant Platform</span>
-            <span class="entry__tag">Plateforme SaaS GenAI multi-tenant</span>
+            <span class="entry__tag" data-i18n="projects.p1.tag">Plateforme SaaS GenAI multi-tenant</span>
           </div>
           <ul>
-            <li>Plateforme SaaS d'assistant commercial IA pour agences de location de voitures : onboarding client,
+            <li data-i18n="projects.p1.b1">Plateforme SaaS d'assistant commercial IA pour agences de location de
+              voitures : onboarding client,
               isolation des données par tenant, architecture pensée pour le passage à l'échelle (FastAPI, LangGraph,
               MongoDB).</li>
-            <li>Workflow IA déterministe (LangGraph) combinant outils métier, génération de devis et orchestration des
+            <li data-i18n="projects.p1.b2">Workflow IA déterministe (LangGraph) combinant outils métier, génération de
+              devis et orchestration des
               conversations.</li>
-            <li>Système RAG multi-tenant : ingestion documentaire, recherche sémantique et réponses contextualisées.</li>
-            <li>Architecture sécurisée : JWT, RBAC, WebSocket, API REST, Docker.</li>
-            <li>Architecture modulaire compatible avec plusieurs fournisseurs de LLM (Ollama, puis OpenAI / Anthropic /
+            <li data-i18n="projects.p1.b3">Système RAG multi-tenant : ingestion documentaire, recherche sémantique et
+              réponses contextualisées.</li>
+            <li data-i18n="projects.p1.b4">Architecture sécurisée : JWT, RBAC, WebSocket, API REST, Docker.</li>
+            <li data-i18n="projects.p1.b5">Architecture modulaire compatible avec plusieurs fournisseurs de LLM (Ollama,
+              puis OpenAI / Anthropic /
               Gemini), prête pour le déploiement en production.</li>
           </ul>
         </article>
@@ -283,10 +318,13 @@
             <span class="entry__tag">Contextual Question Answering</span>
           </div>
           <ul>
-            <li>Système Retrieval-Augmented Generation développé avec LangChain et un stockage vectoriel.</li>
-            <li>Indexation de documents personnalisés et génération de réponses contextualisées à partir d'une base de
+            <li data-i18n="projects.p2.b1">Système Retrieval-Augmented Generation développé avec LangChain et un stockage
+              vectoriel.</li>
+            <li data-i18n="projects.p2.b2">Indexation de documents personnalisés et génération de réponses
+              contextualisées à partir d'une base de
               connaissances locale.</li>
-            <li>Intégration d'un LLM via API et architecture prête pour le déploiement (FastAPI, Docker).</li>
+            <li data-i18n="projects.p2.b3">Intégration d'un LLM via API et architecture prête pour le déploiement
+              (FastAPI, Docker).</li>
           </ul>
         </article>
 
@@ -296,29 +334,32 @@
             <span class="entry__tag">AI Research Assistant</span>
           </div>
           <ul>
-            <li>Pipeline d'extraction de PDF, de métadonnées et de résumé automatique d'articles scientifiques.</li>
-            <li>Backend FastAPI exposant des endpoints REST pour le résumé et la recherche sémantique.</li>
-            <li>Interface React pour la consultation et la recherche dans les documents.</li>
+            <li data-i18n="projects.p3.b1">Pipeline d'extraction de PDF, de métadonnées et de résumé automatique
+              d'articles scientifiques.</li>
+            <li data-i18n="projects.p3.b2">Backend FastAPI exposant des endpoints REST pour le résumé et la recherche
+              sémantique.</li>
+            <li data-i18n="projects.p3.b3">Interface React pour la consultation et la recherche dans les documents.</li>
           </ul>
         </article>
 
         <p style="margin-top:20px">
-          <a href="https://github.com/rabieessayeh" target="_blank" rel="noopener">Voir l'ensemble de mes dépôts sur
+          <a href="https://github.com/rabieessayeh" target="_blank" rel="noopener" data-i18n="projects.githubLink">Voir
+            l'ensemble de mes dépôts sur
             GitHub →</a>
         </p>
       </section>
 
       <!-- ============ Parcours ============ -->
       <section class="section" id="parcours" aria-labelledby="h-form">
-        <h2 id="h-form">Formation</h2>
+        <h2 id="h-form" data-i18n="education.h2">Formation</h2>
         <div class="grid-2">
           <div class="mini">
-            <h3>Master — Big Data Analytics et Systèmes Intelligents</h3>
-            <p>Université Sidi Mohamed Ben Abdellah, Maroc · 2022 – 2024</p>
+            <h3 data-i18n="education.m1.title">Master — Big Data Analytics et Systèmes Intelligents</h3>
+            <p data-i18n="education.m1.place">Université Sidi Mohamed Ben Abdellah, Maroc · 2022 – 2024</p>
           </div>
           <div class="mini">
-            <h3>Licence — Mathématiques et Informatique</h3>
-            <p>Université Sidi Mohamed Ben Abdellah, Maroc · 2018 – 2022</p>
+            <h3 data-i18n="education.m2.title">Licence — Mathématiques et Informatique</h3>
+            <p data-i18n="education.m2.place">Université Sidi Mohamed Ben Abdellah, Maroc · 2018 – 2022</p>
           </div>
         </div>
       </section>
@@ -338,37 +379,40 @@
       </section>
 
       <section class="section" aria-labelledby="h-lang">
-        <h2 id="h-lang">Langues</h2>
+        <h2 id="h-lang" data-i18n="languages.h2">Langues</h2>
         <div class="langs">
-          <span class="lang"><b>Arabe</b> — langue maternelle</span>
-          <span class="lang"><b>Français</b> — courant</span>
-          <span class="lang"><b>Anglais</b> — professionnel</span>
+          <span class="lang" data-i18n-html="languages.arabic"><b>Arabe</b> — langue maternelle</span>
+          <span class="lang" data-i18n-html="languages.french"><b>Français</b> — courant</span>
+          <span class="lang" data-i18n-html="languages.english"><b>Anglais</b> — professionnel</span>
         </div>
       </section>
 
       <section class="section" aria-labelledby="h-asso">
-        <h2 id="h-asso">Engagement associatif</h2>
+        <h2 id="h-asso" data-i18n="volunteer.h2">Engagement associatif</h2>
 
         <article class="entry">
           <div class="entry__head">
-            <span><span class="entry__role">Responsable Numérique</span> · <span class="entry__org">ESN La
+            <span><span class="entry__role" data-i18n="volunteer.v1.role">Responsable Numérique</span> · <span
+                class="entry__org">ESN La
                 Rochelle</span></span>
-            <span class="entry__date">Sept. 2025 – Présent</span>
+            <span class="entry__date" data-i18n="volunteer.v1.date">Sept. 2025 – Présent</span>
           </div>
           <ul>
-            <li>Gestion des accès et maintenance du site web de l'association.</li>
-            <li>Automatisation de tâches administratives répétitives.</li>
+            <li data-i18n="volunteer.v1.b1">Gestion des accès et maintenance du site web de l'association.</li>
+            <li data-i18n="volunteer.v1.b2">Automatisation de tâches administratives répétitives.</li>
           </ul>
         </article>
 
         <article class="entry">
           <div class="entry__head">
-            <span><span class="entry__role">Responsable Sport</span> · <span class="entry__org">ESN La
+            <span><span class="entry__role" data-i18n="volunteer.v2.role">Responsable Sport</span> · <span
+                class="entry__org">ESN La
                 Rochelle</span></span>
-            <span class="entry__date">Sept. 2025 – Présent</span>
+            <span class="entry__date" data-i18n="volunteer.v2.date">Sept. 2025 – Présent</span>
           </div>
           <ul>
-            <li>Organisation et animation d'événements sportifs pour étudiants internationaux.</li>
+            <li data-i18n="volunteer.v2.b1">Organisation et animation d'événements sportifs pour étudiants
+              internationaux.</li>
           </ul>
         </article>
       </section>
@@ -380,7 +424,9 @@
     © <span id="year">2026</span> ES-SAYEH Rabie · La Rochelle, France
   </footer>
 
+  <script src="js/i18n.js?v=1"></script>
   <script src="js/scripts.js?v=3"></script>
 </body>
+
 
 </html>
