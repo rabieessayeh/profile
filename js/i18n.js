@@ -21,9 +21,9 @@
 
       'hero.avatarAlt': "Portrait d'ES-SAYEH Rabie",
       'hero.title': 'Gen AI Software Engineer — LLM, Agents IA & MLOps',
-      'hero.location': '<i class="fa-solid fa-location-dot" aria-hidden="true"></i> La Rochelle, France · Mobile en France',
-      'hero.available': '<i class="fa-solid fa-circle-check" aria-hidden="true"></i> Disponible à partir d\'octobre 2026',
-      'hero.bio': "Gen AI Software Engineer spécialisé dans les solutions GenAI et les agents IA, de la conception à la mise en production. J'ai développé des plateformes SaaS multi-tenant (FastAPI, LangGraph, RAG) avec déploiement conteneurisé (Docker) et une architecture orientée besoins métier. Utilisateur quotidien de Claude Code pour accélérer le prototypage et le développement, je porte un projet du cadrage jusqu'au run en autonomie et je transforme des besoins métier complexes en produits IA concrets et maintenables. Actuellement AI Research Engineer à l'Université de La Rochelle, sur l'IA appliquée aux sciences des matériaux.",
+      'hero.location': '<i class="fa-solid fa-location-dot" aria-hidden="true"></i> La Rochelle, France',
+      'hero.available': '<i class="fa-solid fa-circle-check" aria-hidden="true"></i> Disponible a partir d’octobre 2026',
+      'hero.bio': "AI Engineer spécialisé en solutions GenAI et agents IA, de la conception à la mise en production. Expérience en développement de plateformes SaaS multi-tenant (FastAPI, LangGraph, RAG), déploiement conteneurisé (Docker) et architecture orientée besoins métier. À l'aise pour porter un projet du cadrage jusqu'au run, en autonomie, et pour transformer des besoins métier complexes en produits IA concrets et maintenables.",
 
       'contacts.pdf': 'Ouvrir le CV au format PDF',
       'contacts.github': 'Profil GitHub',
@@ -33,7 +33,7 @@
 
       'exp.h2': 'Expériences professionnelles',
       'exp.e1.org': 'Université de La Rochelle',
-      'exp.e1.date': 'Oct. 2024 – Sept. 2026',
+      'exp.e1.date': 'Oct. 2024 – Oct. 2026',
       'exp.e1.subtitle': 'Intelligence artificielle appliquée aux sciences des matériaux',
       'exp.e1.b1': 'Conception et entraînement de modèles de Deep Learning sous PyTorch pour des problématiques de prédiction et de conception inverse.',
       'exp.e1.b2': 'Développement de modèles génératifs conditionnels (architectures CVAE) générant des structures compatibles avec des propriétés cibles.',
@@ -134,9 +134,9 @@
 
       'hero.avatarAlt': 'Portrait of ES-SAYEH Rabie',
       'hero.title': 'Gen AI Software Engineer — LLM, AI Agents & MLOps',
-      'hero.location': '<i class="fa-solid fa-location-dot" aria-hidden="true"></i> La Rochelle, France · Available to relocate across France',
+      'hero.location': '<i class="fa-solid fa-location-dot" aria-hidden="true"></i> La Rochelle, France',
       'hero.available': '<i class="fa-solid fa-circle-check" aria-hidden="true"></i> Available from October 2026',
-      'hero.bio': "Gen AI Software Engineer specialized in GenAI solutions and AI agents, from design through to production. I've built multi-tenant SaaS platforms (FastAPI, LangGraph, RAG) with containerized deployment (Docker) and an architecture driven by business needs. A daily user of Claude Code to speed up prototyping and development, I take a project from scoping to running it in production autonomously, turning complex business needs into concrete, maintainable AI products. Currently an AI Research Engineer at the University of La Rochelle, working on AI applied to materials science.",
+      'hero.bio': "AI Engineer specialized in GenAI solutions and AI agents, from design through to production. Experienced in building multi-tenant SaaS platforms (FastAPI, LangGraph, RAG), containerized deployment (Docker) and business-driven architecture. Comfortable taking a project from scoping to production autonomously, and turning complex business needs into concrete, maintainable AI products.",
 
       'contacts.pdf': 'Open CV (PDF)',
       'contacts.github': 'GitHub profile',
@@ -146,7 +146,7 @@
 
       'exp.h2': 'Professional Experience',
       'exp.e1.org': 'University of La Rochelle',
-      'exp.e1.date': 'Oct 2024 – Sept 2026',
+      'exp.e1.date': 'Oct 2024 – Oct 2026',
       'exp.e1.subtitle': 'Artificial intelligence applied to materials science',
       'exp.e1.b1': 'Designed and trained Deep Learning models with PyTorch for prediction and inverse design problems.',
       'exp.e1.b2': 'Developed conditional generative models (CVAE architectures) generating structures matching target properties.',
