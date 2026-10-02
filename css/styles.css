@@ -301,6 +301,21 @@ main {
   padding-left: 1.15em;
 }
 .entry li { margin: 5px 0; }
+.entry__media {
+  width: 100%;
+  height: auto;
+  margin-top: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.entry__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin: 10px 0 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
 
 /* --- Skills --- */
 .skills { display: grid; gap: 18px; }
