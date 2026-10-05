@@ -28,7 +28,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     referrerpolicy="no-referrer">
-  <link rel="stylesheet" href="css/styles.css?v=4">
+  <link rel="stylesheet" href="css/styles.css?v=5">
 </head>
 
 <body>
@@ -225,9 +225,9 @@
           </div>
 
           <div class="skillgroup">
-            <div class="skillgroup__label" data-i18n="skills.groupGeo">Géospatial</div>
+            <div class="skillgroup__label" data-i18n="skills.groupGeo">3D &amp; géospatial</div>
             <div class="chips">
-              <span class="chip">GeoPandas</span><span class="chip">Shapely</span><span class="chip">pyproj</span><span
+              <span class="chip">Three.js</span><span class="chip">WebGL</span><span class="chip">trimesh</span><span class="chip">GeoPandas</span><span class="chip">Shapely</span><span class="chip">pyproj</span><span
                 class="chip">GeoJSON</span><span class="chip">Leaflet</span><span class="chip">ArcGIS (Python)</span>
             </div>
           </div>
@@ -324,6 +324,33 @@
             <a href="https://geo-assistant.onrender.com/" target="_blank" rel="noopener"><i
                 class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> <span
                 data-i18n="projects.geo.demo">Démo en ligne</span></a>
+          </p>
+        </article>
+
+        <article class="entry">
+          <div class="entry__head">
+            <span class="entry__role">Geometry Assistant</span>
+            <span class="entry__tag" data-i18n="projects.geometry.tag">Agent IA pour pièces 3D (Three.js)</span>
+          </div>
+          <img class="entry__media" src="img/geometry-assistant.png" width="1280" height="666" loading="lazy"
+            decoding="async"
+            alt="Interface de Geometry Assistant : pièce 3D dans la visionneuse Three.js avec les résultats d'analyse affichés sur le modèle"
+            data-i18n-alt="projects.geometry.imgAlt">
+          <ul>
+            <li data-i18n="projects.geometry.b1">Chargement d'une pièce STL/OBJ et questions en langage naturel : le LLM
+              sélectionne des outils trimesh sur liste blanche (volume, analyse des surplombs pour l'impression 3D,
+              coupes, mesures) et ne calcule jamais la géométrie lui-même.</li>
+            <li data-i18n="projects.geometry.b2">La visionneuse Three.js applique chaque résultat : faces surlignées,
+              contours de coupe, cotes, mouvements de caméra ; rendu à la demande et sélection accélérée par BVH.</li>
+            <li data-i18n="projects.geometry.b3">FastAPI, context engineering (modèle actif, points sélectionnés, vue),
+              jeu d'évaluation, tests, Docker, CI GitHub Actions ; déployé en ligne.</li>
+          </ul>
+          <p class="entry__links">
+            <a href="https://github.com/rabieessayeh/geometry-assistant" target="_blank" rel="noopener"><i
+                class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+            <a href="https://geometry-assistant.onrender.com/" target="_blank" rel="noopener"><i
+                class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> <span
+                data-i18n="projects.geometry.demo">Démo en ligne</span></a>
           </p>
         </article>
 
@@ -461,8 +488,8 @@
     © <span id="year">2026</span> ES-SAYEH Rabie · La Rochelle, France
   </footer>
 
-  <script src="js/i18n.js?v=2"></script>
-  <script src="js/scripts.js?v=4"></script>
+  <script src="js/i18n.js?v=3"></script>
+  <script src="js/scripts.js?v=5"></script>
 </body>
 
 
