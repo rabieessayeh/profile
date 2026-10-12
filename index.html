@@ -1,553 +1,581 @@
 <!doctype html>
 <html lang="fr">
 
-
-
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>ES-SAYEH Rabie — Gen AI Software Engineer</title>
+  <title>ES-SAYEH Rabie — AI Engineer (LLM, agents & ML)</title>
   <meta name="description"
-    content="Portfolio d'ES-SAYEH Rabie, Gen AI Software Engineer spécialisé en LLM, agents IA et MLOps : expériences, compétences et projets IA.">
+    content="Portfolio d'ES-SAYEH Rabie, AI Engineer (LLM, agents IA et ML) : projets IA déployés, expériences et compétences.">
   <meta name="author" content="ES-SAYEH Rabie">
   <meta name="robots" content="index, follow">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
 
   <meta property="og:type" content="profile">
-  <meta property="og:title" content="ES-SAYEH Rabie — Gen AI Software Engineer">
-  <meta property="og:description" content="LLM, agents IA & MLOps — expériences, compétences et projets IA.">
+  <meta property="og:title" content="ES-SAYEH Rabie — AI Engineer (LLM, agents & ML)">
+  <meta property="og:description"
+    content="Des applications IA fiables : le LLM interprète, du code testé décide. Projets, expériences et compétences.">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:locale:alternate" content="en_US">
 
   <link rel="icon"
     href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%23173753'/%3E%3Ctext%20x='32'%20y='45'%20font-family='Arial,Helvetica,sans-serif'%20font-size='38'%20font-weight='bold'%20fill='%234392F1'%20text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     referrerpolicy="no-referrer">
-  <link rel="stylesheet" href="css/styles.css?v=5">
+  <link rel="stylesheet" href="css/styles.css?v=6">
 </head>
 
 <body>
   <a class="skip-link" href="#contenu" data-i18n="skip">Aller au contenu</a>
 
   <header class="site-header">
-    <div class="bar">
-      <div class="wordmark"><span>ES-SAYEH</span> Rabie</div>
-      <div class="bar__right">
-        <nav class="nav" aria-label="Navigation principale" data-i18n-aria-label="nav.aria">
-          <a href="#profil" data-i18n="nav.profile">Profil</a>
-          <a href="#experiences" data-i18n="nav.experiences">Expériences</a>
-          <a href="#competences" data-i18n="nav.skills">Compétences</a>
-          <a href="#projets" data-i18n="nav.projects">Projets</a>
-          <a href="#parcours" data-i18n="nav.education">Parcours</a>
-        </nav>
-        <div class="lang-switch" role="group" aria-label="Sélecteur de langue / Language selector">
-          <button type="button" class="lang-btn" data-lang="fr" aria-pressed="true" aria-label="Passer en français">🇫🇷
-            FR</button>
-          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false"
-            aria-label="Switch to English">🇬🇧 EN</button>
-        </div>
+    <div class="container bar">
+      <a class="brand" href="#profil">ES-SAYEH <span>Rabie</span></a>
+      <nav class="nav" aria-label="Navigation principale" data-i18n-aria-label="nav.aria">
+        <a href="#projets" data-i18n="nav.projects">Projets</a>
+        <a href="#experiences" data-i18n="nav.experiences">Expériences</a>
+        <a href="#competences" data-i18n="nav.skills">Compétences</a>
+        <a href="#parcours" data-i18n="nav.education">Parcours</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Sélecteur de langue / Language selector">
+        <button type="button" class="lang-btn" data-lang="fr" aria-pressed="true"
+          aria-label="Passer en français">FR</button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false"
+          aria-label="Switch to English">EN</button>
       </div>
     </div>
   </header>
 
   <main id="contenu">
-    <div class="card">
 
-      <!-- ============ Profil ============ -->
-      <section class="hero" id="profil">
-        <img class="hero__avatar" src="img/1.png" alt="Portrait d'ES-SAYEH Rabie" data-i18n-alt="hero.avatarAlt">
+    <!-- ============ Hero ============ -->
+    <section class="hero" id="profil">
+      <div class="container hero__grid">
         <div class="hero__body">
           <h1 class="hero__name">ES-SAYEH Rabie</h1>
-          <p class="hero__title" data-i18n="hero.title">Gen AI Software Engineer — LLM, Agents IA &amp; MLOps</p>
-          <p class="hero__meta">
-            <span data-i18n-html="hero.location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> La
-              Rochelle, France</span>
-            <span data-i18n-html="hero.available"><i class="fa-solid fa-circle-check" aria-hidden="true"></i>
-              Disponible immédiatement</span> 
-          </p>
-          <p class="hero__bio" data-i18n="hero.bio">
-
-            AI Engineer spécialisé en solutions GenAI et agents IA, de la conception à la mise en production. Expérience en développement
-            de plateformes SaaS multi-tenant (FastAPI, LangGraph, RAG), déploiement conteneurisé (Docker) et architecture orientée
-            besoins métier. À l'aise pour porter un projet du cadrage jusqu'au run, en autonomie, et pour transformer des besoins métier complexes en produits IA concrets et
-            maintenables.
-          </p>
-          <div class="contacts">
-            <a href="https://github.com/rabieessayeh" target="_blank" rel="noopener" aria-label="Profil GitHub"
-              data-i18n-aria-label="contacts.github" title="GitHub"><i class="fa-brands fa-github"
-                aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/rabie-es-sayeh-999357221" target="_blank" rel="noopener"
-              aria-label="Profil LinkedIn" data-i18n-aria-label="contacts.linkedin" title="LinkedIn"><i
-                class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
-            <a href="mailto:essayeh.rb@gmail.com" aria-label="Envoyer un e-mail" data-i18n-aria-label="contacts.email"
-              title="essayeh.rb@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
-            <a href="tel:+33695253279" aria-label="Appeler" data-i18n-aria-label="contacts.phone"
-              title="+33 6 95 25 32 79"><i class="fa-solid fa-phone" aria-hidden="true"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=33695253279" target="_blank" rel="noopener" aria-label="WhatsApp"
-              title="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+          <p class="hero__title" data-i18n="hero.title">AI Engineer — LLM, agents IA &amp; ML</p>
+          <p class="hero__lead" data-i18n="hero.lead">Je conçois des applications IA fiables : le LLM interprète, du
+            code testé décide.</p>
+          <p class="hero__bio" data-i18n="hero.bio">AI Engineer spécialisé en solutions GenAI et agents IA, de la
+            conception à la mise en production. Expérience en développement de plateformes SaaS multi-tenant (FastAPI,
+            LangGraph, RAG), déploiement conteneurisé (Docker) et architecture orientée besoins métier. À l'aise pour
+            porter un projet du cadrage jusqu'au run, en autonomie, et pour transformer des besoins métier complexes en
+            produits IA concrets et maintenables.</p>
+          <ul class="hero__meta">
+            <li class="badge" data-i18n-html="hero.location"><i class="fa-solid fa-location-dot"
+                aria-hidden="true"></i> La Rochelle, France</li>
+            <li class="badge badge--accent" data-i18n-html="hero.available"><span class="dot"
+                aria-hidden="true"></span> Disponible à partir de novembre 2026</li>
+          </ul>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#projets" data-i18n="hero.ctaProjects">Voir les projets</a>
+            <a class="btn btn--ghost" href="#contact" data-i18n="hero.ctaContact">Contact</a>
+            <span class="icon-links">
+              <a class="icon-link" href="https://github.com/rabieessayeh" target="_blank" rel="noopener"
+                aria-label="Profil GitHub" data-i18n-aria-label="contacts.github" title="GitHub"><i
+                  class="fa-brands fa-github" aria-hidden="true"></i></a>
+              <a class="icon-link" href="https://www.linkedin.com/in/rabie-es-sayeh-999357221" target="_blank"
+                rel="noopener" aria-label="Profil LinkedIn" data-i18n-aria-label="contacts.linkedin"
+                title="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+              <a class="icon-link" href="mailto:essayeh.rb@gmail.com" aria-label="Envoyer un e-mail"
+                data-i18n-aria-label="contacts.email" title="essayeh.rb@gmail.com"><i class="fa-solid fa-envelope"
+                  aria-hidden="true"></i></a>
+            </span>
           </div>
         </div>
-      </section>
+        <img class="hero__avatar" src="img/1.png" width="220" height="220" alt="Portrait d'ES-SAYEH Rabie"
+          data-i18n-alt="hero.avatarAlt">
+      </div>
+    </section>
 
-      <!-- ============ Expériences ============ -->
-      <section class="section" id="experiences" aria-labelledby="h-exp">
-        <h2 id="h-exp" data-i18n="exp.h2">Expériences professionnelles</h2>
+    <!-- ============ Projets ============ -->
+    <section class="section" id="projets" aria-labelledby="h-proj">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="h-proj" data-i18n="projects.h2">Projets phares</h2>
+          <p class="section__lead" data-i18n="projects.lead">Applications déployées où le LLM choisit des outils et où
+            du code testé produit les résultats.</p>
+        </header>
 
-        <article class="entry">
-          <div class="entry__head">
-            <span><span class="entry__role">AI Research Engineer</span> · <span class="entry__org"
-                data-i18n="exp.e1.org">Université de La Rochelle</span></span>
-            <span class="entry__date" data-i18n="exp.e1.date">Oct. 2024 – Oct. 2026</span>
-          </div>
-          <p class="entry__subtitle" data-i18n="exp.e1.subtitle">Intelligence artificielle appliquée aux sciences des
-            matériaux</p>
-          <ul>
-            <li data-i18n="exp.e1.b1">Conception et entraînement de modèles de Deep Learning sous PyTorch pour des
-              problématiques de prédiction et de conception inverse.</li>
-            <li data-i18n="exp.e1.b2">Développement de modèles génératifs conditionnels (architectures CVAE) générant des
-              structures compatibles avec des propriétés cibles.</li>
-            <li data-i18n="exp.e1.b3">Construction de pipelines de données reproductibles : prétraitement, normalisation,
-              entraînement, validation, analyse des performances.</li>
-            <li data-i18n="exp.e1.b4">Intégration de contraintes physiques et de résultats de simulations numériques dans
-              les modèles de Machine Learning.</li>
-            <li data-i18n="exp.e1.b5">Optimisation des hyperparamètres, analyse des limites des modèles et mise en place
-              de protocoles d'évaluation.</li>
-            <li data-i18n="exp.e1.b6">Rédaction de documentation technique et présentation des résultats devant des
-              comités scientifiques.</li>
-          </ul>
-        </article>
+        <div class="projects">
 
-        <article class="entry">
-          <div class="entry__head">
-            <span><span class="entry__role">Python Developer</span> · <span class="entry__org">WIT'INNOV</span>
-              <span class="entry__note" data-i18n="exp.e2.note">(PME industrielle)</span></span>
-            <span class="entry__date" data-i18n="exp.e2.date">Juil. 2025 – Août 2025</span>
-          </div>
-          <ul>
-            <li data-i18n="exp.e2.b1">Développement d'un outil Python automatisant la génération de schémas SQL à partir
-              de fichiers Excel, CSV et TXT.</li>
-            <li data-i18n="exp.e2.b2">Inférence automatique des types, détection des clés primaires, des contraintes et
-              des index.</li>
-            <li data-i18n="exp.e2.b3">Intégration de Python avec Excel et VBA à l'aide de pandas, openpyxl et xlwings.
-            </li>
-            <li data-i18n="exp.e2.b4">Réduction du temps nécessaire à la création de bases de données relationnelles à
-              partir de fichiers tabulaires.</li>
-          </ul>
-        </article>
-
-        <article class="entry">
-          <div class="entry__head">
-            <span><span class="entry__role">Data Scientist</span> · <span class="entry__org" data-i18n="exp.e3.org">
-                Laboratoire LaSIE, Université de La Rochelle</span></span>
-            <span class="entry__date" data-i18n="exp.e3.date">Fév. 2024 – Juil. 2024</span>
-          </div>
-          <ul>
-            <li data-i18n="exp.e3.b1">Génération, structuration et prétraitement de jeux de données issus de simulations
-              scientifiques.</li>
-            <li data-i18n="exp.e3.b2">Développement d'un prototype de modèle génératif pour la résolution d'un problème
-              inverse.</li>
-            <li data-i18n="exp.e3.b3">Mise en place d'expérimentations comparatives et analyse des performances des
-              modèles.</li>
-          </ul>
-        </article>
-
-        <article class="entry">
-          <div class="entry__head">
-            <span><span class="entry__role">Data Engineer &amp; BI Consultant</span> · <span
-                class="entry__org">WIT'INNOV</span>
-              <span class="entry__note" data-i18n="exp.e4.note">(PME industrielle)</span></span>
-            <span class="entry__date" data-i18n="exp.e4.date">Juin 2023 – Sept. 2023</span>
-          </div>
-          <ul>
-            <li data-i18n="exp.e4.b1">Conception de schémas d'entrepôts de données et développement de pipelines ETL.
-            </li>
-            <li data-i18n="exp.e4.b2">Création de tableaux de bord Power BI destinés au pilotage décisionnel (SSIS,
-              SSAS).</li>
-            <li data-i18n="exp.e4.b3">Déploiement et personnalisation de modules Odoo dans plusieurs environnements.</li>
-            <li data-i18n="exp.e4.b4">Automatisation et optimisation de traitements de données.</li>
-          </ul>
-        </article>
-      </section>
-
-      <!-- ============ Compétences ============ -->
-      <section class="section" id="competences" aria-labelledby="h-comp">
-        <h2 id="h-comp" data-i18n="skills.h2">Compétences techniques</h2>
-        <div class="skills">
-
-          <div class="skillgroup">
-            <div class="skillgroup__label">Generative AI &amp; Agents</div>
-            <div class="chips">
-              <span class="chip">LLM</span><span class="chip">RAG</span><span class="chip">AI Agents</span><span
-                class="chip">Tool Calling</span><span class="chip">Prompt Engineering</span><span class="chip"
-                data-i18n="chip.conversationalMemory">Mémoire
-                conversationnelle</span><span class="chip" data-i18n="chip.workflowOrchestration">Orchestration de
-                workflows</span><span class="chip">LangChain</span><span class="chip">LangGraph</span><span
-                class="chip">Hugging Face
-                Transformers</span>
+          <article class="project">
+            <img class="project__media" src="img/devis-ia-travaux.png" width="1400" height="875" loading="lazy"
+              decoding="async"
+              alt="Interface de Devis IA Travaux : notes de visite en texte libre et devis de rénovation chiffré par lot, avec quantités modifiables"
+              data-i18n-alt="projects.devis.imgAlt">
+            <div class="project__body">
+              <h3 class="project__title">Devis IA Travaux</h3>
+              <p class="project__kicker" data-i18n="projects.devis.tag">Devis de rénovation à partir de notes de
+                visite</p>
+              <p class="project__pitch" data-i18n="projects.devis.pitch">Transforme des notes de visite en devis de
+                rénovation chiffré. Le LLM propose les lignes depuis une bibliothèque de prix ; chiffrage, TVA et totaux
+                sont calculés par du code testé.</p>
+              <ul class="tags">
+                <li class="tag">Python</li><li class="tag">FastAPI</li><li class="tag">LLM tool calling</li><li
+                  class="tag">n8n</li><li class="tag">Docker</li>
+              </ul>
+              <details class="project__details">
+                <summary data-i18n="projects.details">Détails techniques</summary>
+                <ul>
+                  <li data-i18n="projects.devis.b1">Transforme des notes de visite en texte libre en devis de rénovation
+                    chiffré.</li>
+                  <li data-i18n="projects.devis.b2">Le LLM propose les lignes à partir d'une bibliothèque de prix
+                    (codes, quantités, hypothèses de calcul explicites) mais ne fixe aucun prix : chiffrage, TVA, totaux
+                    et contrôles sont déterministes et testés.</li>
+                  <li data-i18n="projects.devis.b3">Les points incertains sont signalés (à chiffrer, questions à
+                    poser), les quantités restent modifiables, et le devis s'exporte en CSV ou PDF ; appelable depuis n8n
+                    via une API REST.</li>
+                  <li data-i18n="projects.devis.b4">Python, FastAPI, LLM tool calling, Automation, n8n, Pydantic,
+                    Docker, CI.</li>
+                </ul>
+              </details>
+              <p class="project__actions">
+                <a class="btn btn--primary btn--sm" href="https://devis-ia-travaux.onrender.com/" target="_blank"
+                  rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> <span
+                    data-i18n="projects.demo">Démo en ligne</span></a>
+                <a class="btn btn--ghost btn--sm" href="https://github.com/rabieessayeh/devis-ia-travaux"
+                  target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+              </p>
             </div>
-          </div>
+          </article>
 
-          <div class="skillgroup">
-            <div class="skillgroup__label" data-i18n="skills.groupAiTools">Outils de développement assisté par IA</div>
-            <div class="chips">
-              <span class="chip" data-i18n="chip.claudeCode">Claude Code (usage quotidien)</span><span class="chip"
-                data-i18n="chip.llmAssistants">Assistants de programmation basés
-                sur les LLM</span>
+          <article class="project">
+            <img class="project__media" src="img/cyber-range-assistant.png" width="1440" height="900" loading="lazy"
+              decoding="async"
+              alt="Interface de Cyber Range Scenario Assistant : matrice de couverture MITRE ATT&amp;CK avec les tactiques non couvertes et les techniques suggérées"
+              data-i18n-alt="projects.cyber.imgAlt">
+            <div class="project__body">
+              <h3 class="project__title">Cyber Range Scenario Assistant</h3>
+              <p class="project__kicker" data-i18n="projects.cyber.tag">Assistant LLM pour la cyberdéfense (MITRE
+                ATT&amp;CK)</p>
+              <p class="project__pitch" data-i18n="projects.cyber.pitch">Génère, valide, fusionne et analyse des
+                scénarios d'entraînement en cyberdéfense reliés à MITRE ATT&amp;CK. Le LLM choisit des outils autorisés ;
+                validation et couverture sont déterministes.</p>
+              <ul class="tags">
+                <li class="tag">Python</li><li class="tag">FastAPI</li><li class="tag">MITRE ATT&amp;CK</li><li
+                  class="tag">JSON Schema</li><li class="tag">Pydantic</li>
+              </ul>
+              <details class="project__details">
+                <summary data-i18n="projects.details">Détails techniques</summary>
+                <ul>
+                  <li data-i18n="projects.cyber.b1">Assistant LLM qui génère, valide, fusionne et analyse les lacunes
+                    de scénarios d'entraînement en cyberdéfense, reliés à MITRE ATT&amp;CK (v19).</li>
+                  <li data-i18n="projects.cyber.b2">Le LLM choisit uniquement des outils autorisés ; la construction
+                    des scénarios, la validation par JSON Schema, la matrice de couverture ATT&amp;CK et l'analyse des
+                    lacunes sont déterministes et testées.</li>
+                  <li data-i18n="projects.cyber.b3">Python, FastAPI, LLM tool calling, MITRE ATT&amp;CK, JSON Schema,
+                    Pydantic, Docker, CI.</li>
+                </ul>
+              </details>
+              <p class="project__actions">
+                <a class="btn btn--primary btn--sm" href="https://cyber-range-assistant.onrender.com/"
+                  target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"
+                    aria-hidden="true"></i> <span data-i18n="projects.demo">Démo en ligne</span></a>
+                <a class="btn btn--ghost btn--sm" href="https://github.com/rabieessayeh/cyber-range-assistant"
+                  target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+              </p>
             </div>
-          </div>
+          </article>
 
-          <div class="skillgroup">
-            <div class="skillgroup__label" data-i18n="skills.groupBackend">Backend &amp; développement logiciel</div>
-            <div class="chips">
-              <span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">REST APIs</span><span
-                class="chip" data-i18n="chip.oop">Programmation orientée objet</span><span class="chip"
-                data-i18n="chip.modularArch">Architecture modulaire</span><span class="chip"
-                data-i18n="chip.errorHandling">Gestion des erreurs</span><span class="chip"
-                data-i18n="chip.techDocs">Documentation technique</span>
+          <article class="project">
+            <img class="project__media" src="img/geo-assistant.png" width="1280" height="666" loading="lazy"
+              decoding="async"
+              alt="Interface de Geo Assistant : question en langage naturel et résultats affichés sur une carte du Luxembourg"
+              data-i18n-alt="projects.geo.imgAlt">
+            <div class="project__body">
+              <h3 class="project__title">Geo Assistant</h3>
+              <p class="project__kicker" data-i18n="projects.geo.tag">Agent IA pour données géospatiales</p>
+              <p class="project__pitch" data-i18n="projects.geo.pitch">Répond en langage naturel sur des données
+                géospatiales du Luxembourg. Le LLM sélectionne des outils GeoPandas sur liste blanche ; chaque réponse
+                montre sa trace et ses résultats sur une carte.</p>
+              <ul class="tags">
+                <li class="tag">FastAPI</li><li class="tag">GeoPandas</li><li class="tag">Leaflet</li><li
+                  class="tag">LLM tool calling</li><li class="tag">Docker</li>
+              </ul>
+              <details class="project__details">
+                <summary data-i18n="projects.details">Détails techniques</summary>
+                <ul>
+                  <li data-i18n="projects.geo.b1">Répond à des questions en langage naturel sur des données
+                    géospatiales : un LLM sélectionne des outils GeoPandas déterministes, sur liste blanche, sans jamais
+                    écrire de code ni inventer de chiffres ; chaque réponse renvoie la trace de ses appels d'outils et
+                    ses résultats sur une carte.</li>
+                  <li data-i18n="projects.geo.b2">Données ouvertes réelles du Luxembourg (limites administratives,
+                    arrêts de transport public, écoles géocodées), calculs métriques en EPSG:2169.</li>
+                  <li data-i18n="projects.geo.b3">FastAPI + Leaflet, couche LLM indépendante du fournisseur (API
+                    compatible OpenAI, testée avec gpt-oss-20b), jeu d'évaluation, tests, Docker, CI GitHub Actions ;
+                    déployé en ligne.</li>
+                </ul>
+              </details>
+              <p class="project__actions">
+                <a class="btn btn--primary btn--sm" href="https://geo-assistant.onrender.com/" target="_blank"
+                  rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> <span
+                    data-i18n="projects.demo">Démo en ligne</span></a>
+                <a class="btn btn--ghost btn--sm" href="https://github.com/rabieessayeh/geo-assistant"
+                  target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+              </p>
             </div>
-          </div>
+          </article>
 
-          <div class="skillgroup">
-            <div class="skillgroup__label">MLOps &amp; production</div>
-            <div class="chips">
-              <span class="chip">Docker</span><span class="chip">MLflow</span><span class="chip">Git</span><span
-                class="chip">CI/CD</span><span class="chip">GitHub Actions</span><span class="chip">Model
-                Deployment</span><span class="chip" data-i18n="chip.modelMonitoring">Monitoring de
-                modèles</span><span class="chip">Data Drift</span><span class="chip"
-                data-i18n="chip.experimentReproducibility">Reproductibilité des
-                expérimentations</span>
+          <article class="project">
+            <img class="project__media" src="img/geometry-assistant.png" width="1297" height="696" loading="lazy"
+              decoding="async"
+              alt="Interface de Geometry Assistant : pièce 3D dans la visionneuse Three.js avec les résultats d'analyse affichés sur le modèle"
+              data-i18n-alt="projects.geometry.imgAlt">
+            <div class="project__body">
+              <h3 class="project__title">Geometry Assistant</h3>
+              <p class="project__kicker" data-i18n="projects.geometry.tag">Agent IA pour pièces 3D (Three.js)</p>
+              <p class="project__pitch" data-i18n="projects.geometry.pitch">Questions en langage naturel sur une pièce
+                STL/OBJ. Le LLM sélectionne des outils trimesh sur liste blanche ; la visionneuse Three.js affiche
+                faces, coupes et cotes.</p>
+              <ul class="tags">
+                <li class="tag">Three.js</li><li class="tag">trimesh</li><li class="tag">FastAPI</li><li
+                  class="tag">LLM tool calling</li><li class="tag">Docker</li>
+              </ul>
+              <details class="project__details">
+                <summary data-i18n="projects.details">Détails techniques</summary>
+                <ul>
+                  <li data-i18n="projects.geometry.b1">Chargement d'une pièce STL/OBJ et questions en langage naturel :
+                    le LLM sélectionne des outils trimesh sur liste blanche (volume, analyse des surplombs pour
+                    l'impression 3D, coupes, mesures) et ne calcule jamais la géométrie lui-même.</li>
+                  <li data-i18n="projects.geometry.b2">La visionneuse Three.js applique chaque résultat : faces
+                    surlignées, contours de coupe, cotes, mouvements de caméra ; rendu à la demande et sélection
+                    accélérée par BVH.</li>
+                  <li data-i18n="projects.geometry.b3">FastAPI, context engineering (modèle actif, points
+                    sélectionnés, vue), jeu d'évaluation, tests, Docker, CI GitHub Actions ; déployé en ligne.</li>
+                </ul>
+              </details>
+              <p class="project__actions">
+                <a class="btn btn--primary btn--sm" href="https://geometry-assistant.onrender.com/" target="_blank"
+                  rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> <span
+                    data-i18n="projects.demo">Démo en ligne</span></a>
+                <a class="btn btn--ghost btn--sm" href="https://github.com/rabieessayeh/geometry-assistant"
+                  target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+              </p>
             </div>
-          </div>
-
-          <div class="skillgroup">
-            <div class="skillgroup__label" data-i18n="skills.groupGeo">3D &amp; géospatial</div>
-            <div class="chips">
-              <span class="chip">Three.js</span><span class="chip">WebGL</span><span class="chip">trimesh</span><span class="chip">GeoPandas</span><span class="chip">Shapely</span><span class="chip">pyproj</span><span
-                class="chip">GeoJSON</span><span class="chip">Leaflet</span><span class="chip">ArcGIS (Python)</span>
-            </div>
-          </div>
-
-          <div class="skillgroup">
-            <div class="skillgroup__label">Machine Learning &amp; Deep Learning</div>
-            <div class="chips">
-              <span class="chip">PyTorch</span><span class="chip">Scikit-learn</span><span class="chip"
-                data-i18n="chip.generativeModels">Modèles
-                génératifs</span><span class="chip">NLP</span><span class="chip">Computer Vision</span><span
-                class="chip">Reinforcement Learning</span><span class="chip">Feature Engineering</span><span
-                class="chip">Model Evaluation</span>
-            </div>
-          </div>
-
-          <div class="skillgroup">
-            <div class="skillgroup__label" data-i18n="skills.groupWeb">Développement web</div>
-            <div class="chips">
-              <span class="chip">React</span><span class="chip">Next.js</span><span class="chip">JavaScript</span><span
-                class="chip">HTML</span><span class="chip">CSS</span>
-            </div>
-          </div>
-
-          <div class="skillgroup">
-            <div class="skillgroup__label">Data Engineering &amp; Big Data</div>
-            <div class="chips">
-              <span class="chip">ETL</span><span class="chip">Data Pipelines</span><span class="chip">Apache
-                Spark</span><span class="chip">Kafka</span><span class="chip">Hadoop</span><span class="chip"
-                data-i18n="chip.dataPreprocessing">Prétraitement de données</span>
-            </div>
-          </div>
-
-          <div class="skillgroup">
-            <div class="skillgroup__label">Cloud &amp; Infrastructure</div>
-            <div class="chips">
-              <span class="chip">AWS</span><span class="chip">Microsoft Azure</span><span class="chip">Google Cloud
-                Platform</span><span class="chip" data-i18n="chip.containerization">Conteneurisation</span>
-            </div>
-          </div>
-
-          <div class="skillgroup">
-            <div class="skillgroup__label" data-i18n="skills.groupDb">Bases de données</div>
-            <div class="chips">
-              <span class="chip">MongoDB</span><span class="chip">PostgreSQL</span><span class="chip">MySQL</span><span
-                class="chip">SQL Server</span><span class="chip">Oracle</span><span class="chip">PL/SQL</span>
-            </div>
-          </div>
-
-          <div class="skillgroup">
-            <div class="skillgroup__label" data-i18n="skills.groupOtherLangs">Autres langages</div>
-            <div class="chips">
-              <span class="chip">C / C++</span><span class="chip">Java</span>
-            </div>
-          </div>
-
-          <div class="skillgroup">
-            <div class="skillgroup__label">Business Intelligence</div>
-            <div class="chips">
-              <span class="chip">Power BI</span><span class="chip">SSIS</span><span class="chip">SSAS</span><span
-                class="chip">MDX</span>
-            </div>
-          </div>
+          </article>
 
         </div>
-      </section>
 
-      <!-- ============ Projets ============ -->
-      <section class="section" id="projets" aria-labelledby="h-proj">
-        <h2 id="h-proj" data-i18n="projects.h2">Projets IA sélectionnés</h2>
+        <h3 class="subhead" data-i18n="projects.othersH3">Autres projets</h3>
+        <div class="others">
 
-        <article class="entry">
-          <div class="entry__head">
-            <span class="entry__role">Geo Assistant</span>
-            <span class="entry__tag" data-i18n="projects.geo.tag">Agent IA pour données géospatiales</span>
-          </div>
-          <img class="entry__media" src="img/geo-assistant.png" width="1280" height="666" loading="lazy"
-            decoding="async"
-            alt="Interface de Geo Assistant : question en langage naturel et résultats affichés sur une carte du Luxembourg"
-            data-i18n-alt="projects.geo.imgAlt">
-          <ul>
-            <li data-i18n="projects.geo.b1">Répond à des questions en langage naturel sur des données géospatiales : un
-              LLM sélectionne des outils GeoPandas déterministes, sur liste blanche, sans jamais écrire de code ni
-              inventer de chiffres ; chaque réponse renvoie la trace de ses appels d'outils et ses résultats sur une
-              carte.</li>
-            <li data-i18n="projects.geo.b2">Données ouvertes réelles du Luxembourg (limites administratives, arrêts de
-              transport public, écoles géocodées), calculs métriques en EPSG:2169.</li>
-            <li data-i18n="projects.geo.b3">FastAPI + Leaflet, couche LLM indépendante du fournisseur (API compatible
-              OpenAI, testée avec gpt-oss-20b), jeu d'évaluation, tests, Docker, CI GitHub Actions ; déployé en ligne.
-            </li>
-          </ul>
-          <p class="entry__links">
-            <a href="https://github.com/rabieessayeh/geo-assistant" target="_blank" rel="noopener"><i
-                class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
-            <a href="https://geo-assistant.onrender.com/" target="_blank" rel="noopener"><i
-                class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> <span
-                data-i18n="projects.geo.demo">Démo en ligne</span></a>
-          </p>
-        </article>
+          <article class="panel mini-project">
+            <h4 class="mini-project__title">AI Sales Assistant Platform</h4>
+            <p class="project__kicker" data-i18n="projects.p1.tag">Plateforme SaaS GenAI multi-tenant</p>
+            <p class="project__pitch" data-i18n="projects.p1.pitch">Assistant commercial IA pour agences de location
+              de voitures : workflow LangGraph, RAG multi-tenant et isolation des données par client.</p>
+            <ul class="tags">
+              <li class="tag">FastAPI</li><li class="tag">LangGraph</li><li class="tag">RAG</li><li
+                class="tag">MongoDB</li><li class="tag">Docker</li>
+            </ul>
+            <details class="project__details">
+              <summary data-i18n="projects.details">Détails techniques</summary>
+              <ul>
+                <li data-i18n="projects.p1.b1">Plateforme SaaS d'assistant commercial IA pour agences de location de
+                  voitures : onboarding client, isolation des données par tenant, architecture pensée pour le passage à
+                  l'échelle (FastAPI, LangGraph, MongoDB).</li>
+                <li data-i18n="projects.p1.b2">Workflow IA déterministe (LangGraph) combinant outils métier, génération
+                  de devis et orchestration des conversations.</li>
+                <li data-i18n="projects.p1.b3">Système RAG multi-tenant : ingestion documentaire, recherche sémantique
+                  et réponses contextualisées.</li>
+                <li data-i18n="projects.p1.b4">Architecture sécurisée : JWT, RBAC, WebSocket, API REST, Docker.</li>
+                <li data-i18n="projects.p1.b5">Architecture modulaire compatible avec plusieurs fournisseurs de LLM
+                  (Ollama, puis OpenAI / Anthropic / Gemini), prête pour le déploiement en production.</li>
+              </ul>
+            </details>
+          </article>
 
-        <article class="entry">
-          <div class="entry__head">
-            <span class="entry__role">Geometry Assistant</span>
-            <span class="entry__tag" data-i18n="projects.geometry.tag">Agent IA pour pièces 3D (Three.js)</span>
-          </div>
-          <img class="entry__media" src="img/geometry-assistant.png" width="1280" height="666" loading="lazy"
-            decoding="async"
-            alt="Interface de Geometry Assistant : pièce 3D dans la visionneuse Three.js avec les résultats d'analyse affichés sur le modèle"
-            data-i18n-alt="projects.geometry.imgAlt">
-          <ul>
-            <li data-i18n="projects.geometry.b1">Chargement d'une pièce STL/OBJ et questions en langage naturel : le LLM
-              sélectionne des outils trimesh sur liste blanche (volume, analyse des surplombs pour l'impression 3D,
-              coupes, mesures) et ne calcule jamais la géométrie lui-même.</li>
-            <li data-i18n="projects.geometry.b2">La visionneuse Three.js applique chaque résultat : faces surlignées,
-              contours de coupe, cotes, mouvements de caméra ; rendu à la demande et sélection accélérée par BVH.</li>
-            <li data-i18n="projects.geometry.b3">FastAPI, context engineering (modèle actif, points sélectionnés, vue),
-              jeu d'évaluation, tests, Docker, CI GitHub Actions ; déployé en ligne.</li>
-          </ul>
-          <p class="entry__links">
-            <a href="https://github.com/rabieessayeh/geometry-assistant" target="_blank" rel="noopener"><i
-                class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
-            <a href="https://geometry-assistant.onrender.com/" target="_blank" rel="noopener"><i
-                class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> <span
-                data-i18n="projects.geometry.demo">Démo en ligne</span></a>
-          </p>
-        </article>
+          <article class="panel mini-project">
+            <h4 class="mini-project__title">PaperPocket</h4>
+            <p class="project__kicker" data-i18n="projects.p3.tag">Assistant de recherche IA</p>
+            <p class="project__pitch" data-i18n="projects.p3.pitch">Résumé automatique et recherche sémantique
+              d'articles scientifiques au format PDF.</p>
+            <ul class="tags">
+              <li class="tag">FastAPI</li><li class="tag">React</li><li class="tag">NLP</li><li class="tag">Semantic
+                search</li>
+            </ul>
+            <details class="project__details">
+              <summary data-i18n="projects.details">Détails techniques</summary>
+              <ul>
+                <li data-i18n="projects.p3.b1">Pipeline d'extraction de PDF, de métadonnées et de résumé automatique
+                  d'articles scientifiques.</li>
+                <li data-i18n="projects.p3.b2">Backend FastAPI exposant des endpoints REST pour le résumé et la
+                  recherche sémantique.</li>
+                <li data-i18n="projects.p3.b3">Interface React pour la consultation et la recherche dans les
+                  documents.</li>
+              </ul>
+            </details>
+          </article>
 
-        <article class="entry">
-          <div class="entry__head">
-            <span class="entry__role">Cyber Range Scenario Assistant</span>
-            <span class="entry__tag" data-i18n="projects.cyber.tag">Assistant LLM pour la cyberdéfense (MITRE ATT&amp;CK)</span>
-          </div>
-          <img class="entry__media" src="img/cyber-range-assistant.png" width="1440" height="900" loading="lazy"
-            decoding="async"
-            alt="Interface de Cyber Range Scenario Assistant : matrice de couverture MITRE ATT&amp;CK avec les tactiques non couvertes et les techniques suggérées"
-            data-i18n-alt="projects.cyber.imgAlt">
-          <ul>
-            <li data-i18n="projects.cyber.b1">Assistant LLM qui génère, valide, fusionne et analyse les lacunes de
-              scénarios d'entraînement en cyberdéfense, reliés à MITRE ATT&amp;CK (v19).</li>
-            <li data-i18n="projects.cyber.b2">Le LLM choisit uniquement des outils autorisés ; la construction des
-              scénarios, la validation par JSON Schema, la matrice de couverture ATT&amp;CK et l'analyse des lacunes sont
-              déterministes et testées.</li>
-            <li data-i18n="projects.cyber.b3">Python, FastAPI, LLM tool calling, MITRE ATT&amp;CK, JSON Schema, Pydantic,
-              Docker, CI.</li>
-          </ul>
-          <p class="entry__links">
-            <a href="https://github.com/rabieessayeh/cyber-range-assistant" target="_blank" rel="noopener"><i
-                class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
-            <a href="https://cyber-range-assistant.onrender.com/" target="_blank" rel="noopener"><i
-                class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> <span
-                data-i18n="projects.cyber.demo">Démo en ligne</span></a>
-          </p>
-        </article>
+        </div>
 
-        <article class="entry">
-          <div class="entry__head">
-            <span class="entry__role">Devis IA Travaux</span>
-            <span class="entry__tag" data-i18n="projects.devis.tag">Devis de rénovation à partir de notes de visite</span>
-          </div>
-          <img class="entry__media" src="img/devis-ia-travaux.png" width="1400" height="875" loading="lazy"
-            decoding="async"
-            alt="Interface de Devis IA Travaux : notes de visite en texte libre et devis de rénovation chiffré par lot, avec quantités modifiables"
-            data-i18n-alt="projects.devis.imgAlt">
-          <ul>
-            <li data-i18n="projects.devis.b1">Transforme des notes de visite en texte libre en devis de rénovation
-              chiffré.</li>
-            <li data-i18n="projects.devis.b2">Le LLM propose les lignes à partir d'une bibliothèque de prix (codes,
-              quantités, hypothèses de calcul explicites) mais ne fixe aucun prix : chiffrage, TVA, totaux et contrôles
-              sont déterministes et testés.</li>
-            <li data-i18n="projects.devis.b3">Les points incertains sont signalés (à chiffrer, questions à poser), les
-              quantités restent modifiables, et le devis s'exporte en CSV ou PDF ; appelable depuis n8n via une API REST.
-            </li>
-            <li data-i18n="projects.devis.b4">Python, FastAPI, LLM tool calling, Automation, n8n, Pydantic, Docker, CI.
-            </li>
-          </ul>
-          <p class="entry__links">
-            <a href="https://github.com/rabieessayeh/devis-ia-travaux" target="_blank" rel="noopener"><i
-                class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
-            <a href="https://devis-ia-travaux.onrender.com/" target="_blank" rel="noopener"><i
-                class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> <span
-                data-i18n="projects.devis.demo">Démo en ligne</span></a>
-          </p>
-        </article>
-
-        <article class="entry">
-          <div class="entry__head">
-            <span class="entry__role">AI Sales Assistant Platform</span>
-            <span class="entry__tag" data-i18n="projects.p1.tag">Plateforme SaaS GenAI multi-tenant</span>
-          </div>
-          <ul>
-            <li data-i18n="projects.p1.b1">Plateforme SaaS d'assistant commercial IA pour agences de location de
-              voitures : onboarding client,
-              isolation des données par tenant, architecture pensée pour le passage à l'échelle (FastAPI, LangGraph,
-              MongoDB).</li>
-            <li data-i18n="projects.p1.b2">Workflow IA déterministe (LangGraph) combinant outils métier, génération de
-              devis et orchestration des
-              conversations.</li>
-            <li data-i18n="projects.p1.b3">Système RAG multi-tenant : ingestion documentaire, recherche sémantique et
-              réponses contextualisées.</li>
-            <li data-i18n="projects.p1.b4">Architecture sécurisée : JWT, RBAC, WebSocket, API REST, Docker.</li>
-            <li data-i18n="projects.p1.b5">Architecture modulaire compatible avec plusieurs fournisseurs de LLM (Ollama,
-              puis OpenAI / Anthropic /
-              Gemini), prête pour le déploiement en production.</li>
-          </ul>
-        </article>
-
-        <article class="entry">
-          <div class="entry__head">
-            <span class="entry__role">RAG System</span>
-            <span class="entry__tag">Contextual Question Answering</span>
-          </div>
-          <ul>
-            <li data-i18n="projects.p2.b1">Système Retrieval-Augmented Generation développé avec LangChain et un stockage
-              vectoriel.</li>
-            <li data-i18n="projects.p2.b2">Indexation de documents personnalisés et génération de réponses
-              contextualisées à partir d'une base de
-              connaissances locale.</li>
-            <li data-i18n="projects.p2.b3">Intégration d'un LLM via API et architecture prête pour le déploiement
-              (FastAPI, Docker).</li>
-          </ul>
-        </article>
-
-        <article class="entry">
-          <div class="entry__head">
-            <span class="entry__role">PaperPocket</span>
-            <span class="entry__tag">AI Research Assistant</span>
-          </div>
-          <ul>
-            <li data-i18n="projects.p3.b1">Pipeline d'extraction de PDF, de métadonnées et de résumé automatique
-              d'articles scientifiques.</li>
-            <li data-i18n="projects.p3.b2">Backend FastAPI exposant des endpoints REST pour le résumé et la recherche
-              sémantique.</li>
-            <li data-i18n="projects.p3.b3">Interface React pour la consultation et la recherche dans les documents.</li>
-          </ul>
-        </article>
-
-        <p style="margin-top:20px">
+        <p class="more-link">
           <a href="https://github.com/rabieessayeh" target="_blank" rel="noopener" data-i18n="projects.githubLink">Voir
-            l'ensemble de mes dépôts sur
-            GitHub →</a>
+            l'ensemble de mes dépôts sur GitHub →</a>
         </p>
-      </section>
+      </div>
+    </section>
 
-      <!-- ============ Parcours ============ -->
-      <section class="section" id="parcours" aria-labelledby="h-form">
-        <h2 id="h-form" data-i18n="education.h2">Formation</h2>
-        <div class="grid-2">
-          <div class="mini">
-            <h3 data-i18n="education.m1.title">Master — Big Data Analytics et Systèmes Intelligents</h3>
-            <p data-i18n="education.m1.place">Université Sidi Mohamed Ben Abdellah, Maroc · 2022 – 2024</p>
+    <!-- ============ Expériences ============ -->
+    <section class="section" id="experiences" aria-labelledby="h-exp">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="h-exp" data-i18n="exp.h2">Expériences professionnelles</h2>
+        </header>
+
+        <ol class="panel timeline">
+          <li class="tl-item">
+            <div class="tl-head">
+              <h3 class="tl-role">AI Research Engineer · <span class="tl-org" data-i18n="exp.e1.org">Université de La
+                  Rochelle</span></h3>
+              <span class="tl-date" data-i18n="exp.e1.date">Oct. 2024 – Oct. 2026</span>
+            </div>
+            <p class="tl-sub" data-i18n="exp.e1.subtitle">Intelligence artificielle appliquée aux sciences des
+              matériaux</p>
+            <ul>
+              <li data-i18n="exp.e1.b1">Conception et entraînement de modèles de Deep Learning sous PyTorch pour des
+                problématiques de prédiction et de conception inverse.</li>
+              <li data-i18n="exp.e1.b2">Développement de modèles génératifs conditionnels (architectures CVAE) générant
+                des structures compatibles avec des propriétés cibles.</li>
+              <li data-i18n="exp.e1.b3">Construction de pipelines de données reproductibles : prétraitement,
+                normalisation, entraînement, validation, analyse des performances.</li>
+            </ul>
+          </li>
+
+          <li class="tl-item">
+            <div class="tl-head">
+              <h3 class="tl-role">Python Developer · <span class="tl-org">WIT'INNOV</span> <span class="tl-note"
+                  data-i18n="exp.e2.note">(PME industrielle)</span></h3>
+              <span class="tl-date" data-i18n="exp.e2.date">Juil. 2025 – Août 2025</span>
+            </div>
+            <ul>
+              <li data-i18n="exp.e2.b1">Développement d'un outil Python automatisant la génération de schémas SQL à
+                partir de fichiers Excel, CSV et TXT.</li>
+              <li data-i18n="exp.e2.b2">Inférence automatique des types, détection des clés primaires, des contraintes
+                et des index.</li>
+              <li data-i18n="exp.e2.b4">Réduction du temps nécessaire à la création de bases de données relationnelles
+                à partir de fichiers tabulaires.</li>
+            </ul>
+          </li>
+
+          <li class="tl-item">
+            <div class="tl-head">
+              <h3 class="tl-role">Data Scientist · <span class="tl-org" data-i18n="exp.e3.org">Laboratoire LaSIE,
+                  Université de La Rochelle</span></h3>
+              <span class="tl-date" data-i18n="exp.e3.date">Fév. 2024 – Juil. 2024</span>
+            </div>
+            <ul>
+              <li data-i18n="exp.e3.b1">Génération, structuration et prétraitement de jeux de données issus de
+                simulations scientifiques.</li>
+              <li data-i18n="exp.e3.b2">Développement d'un prototype de modèle génératif pour la résolution d'un
+                problème inverse.</li>
+              <li data-i18n="exp.e3.b3">Mise en place d'expérimentations comparatives et analyse des performances des
+                modèles.</li>
+            </ul>
+          </li>
+
+          <li class="tl-item">
+            <div class="tl-head">
+              <h3 class="tl-role">Data Engineer &amp; BI Consultant · <span class="tl-org">WIT'INNOV</span> <span
+                  class="tl-note" data-i18n="exp.e4.note">(PME industrielle)</span></h3>
+              <span class="tl-date" data-i18n="exp.e4.date">Juin 2023 – Sept. 2023</span>
+            </div>
+            <ul>
+              <li data-i18n="exp.e4.b1">Conception de schémas d'entrepôts de données et développement de pipelines
+                ETL.</li>
+              <li data-i18n="exp.e4.b2">Création de tableaux de bord Power BI destinés au pilotage décisionnel (SSIS,
+                SSAS).</li>
+              <li data-i18n="exp.e4.b3">Déploiement et personnalisation de modules Odoo dans plusieurs
+                environnements.</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ Compétences ============ -->
+    <section class="section" id="competences" aria-labelledby="h-comp">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="h-comp" data-i18n="skills.h2">Compétences techniques</h2>
+        </header>
+
+        <div class="skills">
+          <div class="panel">
+            <h3 class="panel__title" data-i18n="skills.g1">IA générative &amp; agents</h3>
+            <ul class="tags">
+              <li class="tag">LLM</li><li class="tag">RAG</li><li class="tag">AI Agents</li><li class="tag">Tool
+                Calling</li><li class="tag">Prompt Engineering</li><li class="tag"
+                data-i18n="chip.conversationalMemory">Mémoire conversationnelle</li><li class="tag"
+                data-i18n="chip.workflowOrchestration">Orchestration de workflows</li><li class="tag">LangChain</li><li
+                class="tag">LangGraph</li><li class="tag">Hugging Face Transformers</li><li class="tag"
+                data-i18n="chip.claudeCode">Claude Code (usage quotidien)</li><li class="tag"
+                data-i18n="chip.llmAssistants">Assistants de programmation basés sur les LLM</li>
+            </ul>
           </div>
-          <div class="mini">
-            <h3 data-i18n="education.m2.title">Licence — Mathématiques et Informatique</h3>
-            <p data-i18n="education.m2.place">Université Sidi Mohamed Ben Abdellah, Maroc · 2018 – 2022</p>
+
+          <div class="panel">
+            <h3 class="panel__title">Machine Learning &amp; Deep Learning</h3>
+            <ul class="tags">
+              <li class="tag">PyTorch</li><li class="tag">Scikit-learn</li><li class="tag"
+                data-i18n="chip.generativeModels">Modèles génératifs</li><li class="tag">NLP</li><li class="tag">Computer
+                Vision</li><li class="tag">Reinforcement Learning</li><li class="tag">Feature Engineering</li><li
+                class="tag">Model Evaluation</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3 class="panel__title">Backend &amp; MLOps</h3>
+            <ul class="tags">
+              <li class="tag">Python</li><li class="tag">FastAPI</li><li class="tag">REST APIs</li><li class="tag"
+                data-i18n="chip.oop">Programmation orientée objet</li><li class="tag"
+                data-i18n="chip.modularArch">Architecture modulaire</li><li class="tag"
+                data-i18n="chip.errorHandling">Gestion des erreurs</li><li class="tag"
+                data-i18n="chip.techDocs">Documentation technique</li><li class="tag">Docker</li><li
+                class="tag">MLflow</li><li class="tag">Git</li><li class="tag">CI/CD</li><li class="tag">GitHub
+                Actions</li><li class="tag">Model Deployment</li><li class="tag"
+                data-i18n="chip.modelMonitoring">Monitoring de modèles</li><li class="tag">Data Drift</li><li
+                class="tag" data-i18n="chip.experimentReproducibility">Reproductibilité des expérimentations</li><li
+                class="tag">AWS</li><li class="tag">Microsoft Azure</li><li class="tag">Google Cloud Platform</li><li
+                class="tag" data-i18n="chip.containerization">Conteneurisation</li><li class="tag">C / C++</li><li
+                class="tag">Java</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3 class="panel__title" data-i18n="skills.g4">Data Engineering &amp; bases de données</h3>
+            <ul class="tags">
+              <li class="tag">ETL</li><li class="tag">Data Pipelines</li><li class="tag">Apache Spark</li><li
+                class="tag">Kafka</li><li class="tag">Hadoop</li><li class="tag"
+                data-i18n="chip.dataPreprocessing">Prétraitement de données</li><li class="tag">MongoDB</li><li
+                class="tag">PostgreSQL</li><li class="tag">MySQL</li><li class="tag">SQL Server</li><li
+                class="tag">Oracle</li><li class="tag">PL/SQL</li><li class="tag">Power BI</li><li
+                class="tag">SSIS</li><li class="tag">SSAS</li><li class="tag">MDX</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3 class="panel__title" data-i18n="skills.g5">Web, 3D &amp; géospatial</h3>
+            <ul class="tags">
+              <li class="tag">React</li><li class="tag">Next.js</li><li class="tag">JavaScript</li><li
+                class="tag">HTML</li><li class="tag">CSS</li><li class="tag">Three.js</li><li class="tag">WebGL</li><li
+                class="tag">trimesh</li><li class="tag">GeoPandas</li><li class="tag">Shapely</li><li
+                class="tag">pyproj</li><li class="tag">GeoJSON</li><li class="tag">Leaflet</li><li class="tag">ArcGIS
+                (Python)</li>
+            </ul>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section" aria-labelledby="h-cert">
-        <h2 id="h-cert">Certifications</h2>
-        <div class="grid-2">
-          <div class="mini">
-            <h3>Machine Learning</h3>
-            <p>Coursera</p>
+    <!-- ============ Parcours ============ -->
+    <section class="section" id="parcours" aria-labelledby="h-bg">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="h-bg" data-i18n="background.h2">Parcours</h2>
+        </header>
+
+        <div class="bg-grid">
+          <div class="panel">
+            <h3 class="panel__title" data-i18n="education.h2">Formation</h3>
+            <div class="item">
+              <h4 class="item__title" data-i18n="education.m1.title">Master — Big Data Analytics et Systèmes
+                Intelligents</h4>
+              <p class="item__meta" data-i18n="education.m1.place">Université Sidi Mohamed Ben Abdellah, Maroc · 2022 –
+                2024</p>
+            </div>
+            <div class="item">
+              <h4 class="item__title" data-i18n="education.m2.title">Licence — Mathématiques et Informatique</h4>
+              <p class="item__meta" data-i18n="education.m2.place">Université Sidi Mohamed Ben Abdellah, Maroc · 2018 –
+                2022</p>
+            </div>
           </div>
-          <div class="mini">
-            <h3>Neural Networks and Deep Learning</h3>
-            <p>DeepLearning.AI</p>
+
+          <div class="panel">
+            <h3 class="panel__title">Certifications</h3>
+            <div class="item">
+              <h4 class="item__title">Machine Learning</h4>
+              <p class="item__meta">Coursera</p>
+            </div>
+            <div class="item">
+              <h4 class="item__title">Neural Networks and Deep Learning</h4>
+              <p class="item__meta">DeepLearning.AI</p>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3 class="panel__title" data-i18n="languages.h2">Langues</h3>
+            <ul class="langs">
+              <li data-i18n-html="languages.arabic"><b>Arabe</b> — langue maternelle</li>
+              <li data-i18n-html="languages.french"><b>Français</b> — courant</li>
+              <li data-i18n-html="languages.english"><b>Anglais</b> — professionnel</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3 class="panel__title" data-i18n="volunteer.h2">Engagement associatif</h3>
+            <div class="item">
+              <h4 class="item__title"><span data-i18n="volunteer.v1.role">Responsable Numérique</span> · ESN La
+                Rochelle</h4>
+              <p class="item__meta" data-i18n="volunteer.v1.date">Sept. 2025 – Présent</p>
+              <ul>
+                <li data-i18n="volunteer.v1.b1">Gestion des accès et maintenance du site web de l'association.</li>
+                <li data-i18n="volunteer.v1.b2">Automatisation de tâches administratives répétitives.</li>
+              </ul>
+            </div>
+            <div class="item">
+              <h4 class="item__title"><span data-i18n="volunteer.v2.role">Responsable Sport</span> · ESN La Rochelle
+              </h4>
+              <p class="item__meta" data-i18n="volunteer.v2.date">Sept. 2025 – Présent</p>
+              <ul>
+                <li data-i18n="volunteer.v2.b1">Organisation et animation d'événements sportifs pour étudiants
+                  internationaux.</li>
+              </ul>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section" aria-labelledby="h-lang">
-        <h2 id="h-lang" data-i18n="languages.h2">Langues</h2>
-        <div class="langs">
-          <span class="lang" data-i18n-html="languages.arabic"><b>Arabe</b> — langue maternelle</span>
-          <span class="lang" data-i18n-html="languages.french"><b>Français</b> — courant</span>
-          <span class="lang" data-i18n-html="languages.english"><b>Anglais</b> — professionnel</span>
+    <!-- ============ Contact ============ -->
+    <section class="section" id="contact" aria-labelledby="h-contact">
+      <div class="container">
+        <div class="panel contact">
+          <h2 id="h-contact" data-i18n="contact.h2">Contact</h2>
+          <p class="contact__text" data-i18n="contact.text">Un projet IA, un poste ou une question technique ?
+            Écrivez-moi, je réponds rapidement.</p>
+          <p class="contact__actions">
+            <a class="btn btn--primary" href="mailto:essayeh.rb@gmail.com"><i class="fa-solid fa-envelope"
+                aria-hidden="true"></i> essayeh.rb@gmail.com</a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/rabie-es-sayeh-999357221" target="_blank"
+              rel="noopener"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a>
+            <a class="btn btn--ghost" href="https://github.com/rabieessayeh" target="_blank" rel="noopener"><i
+                class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+          </p>
+          <p class="contact__alt">
+            <a href="tel:+33695253279"><i
+                class="fa-solid fa-phone" aria-hidden="true"></i> +33 6 95 25 32 79</a>
+            <a href="https://api.whatsapp.com/send?phone=33695253279" target="_blank" rel="noopener"><i
+                class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
+          </p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section" aria-labelledby="h-asso">
-        <h2 id="h-asso" data-i18n="volunteer.h2">Engagement associatif</h2>
-
-        <article class="entry">
-          <div class="entry__head">
-            <span><span class="entry__role" data-i18n="volunteer.v1.role">Responsable Numérique</span> · <span
-                class="entry__org">ESN La
-                Rochelle</span></span>
-            <span class="entry__date" data-i18n="volunteer.v1.date">Sept. 2025 – Présent</span>
-          </div>
-          <ul>
-            <li data-i18n="volunteer.v1.b1">Gestion des accès et maintenance du site web de l'association.</li>
-            <li data-i18n="volunteer.v1.b2">Automatisation de tâches administratives répétitives.</li>
-          </ul>
-        </article>
-
-        <article class="entry">
-          <div class="entry__head">
-            <span><span class="entry__role" data-i18n="volunteer.v2.role">Responsable Sport</span> · <span
-                class="entry__org">ESN La
-                Rochelle</span></span>
-            <span class="entry__date" data-i18n="volunteer.v2.date">Sept. 2025 – Présent</span>
-          </div>
-          <ul>
-            <li data-i18n="volunteer.v2.b1">Organisation et animation d'événements sportifs pour étudiants
-              internationaux.</li>
-          </ul>
-        </article>
-      </section>
-
-    </div>
   </main>
 
   <footer class="site-footer">
-    © <span id="year">2026</span> ES-SAYEH Rabie · La Rochelle, France
+    <div class="container">© <span id="year">2026</span> ES-SAYEH Rabie · La Rochelle, France</div>
   </footer>
 
-  <script src="js/i18n.js?v=5"></script>
-  <script src="js/scripts.js?v=5"></script>
+  <script src="js/i18n.js?v=6"></script>
+  <script src="js/scripts.js?v=6"></script>
 </body>
-
 
 </html>
