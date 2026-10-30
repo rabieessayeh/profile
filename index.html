@@ -104,6 +104,53 @@
 
         <div class="projects">
 
+
+          <article class="project">
+            <img class="project__media" src="img/sinistre-cg.png" width="1400" height="875" loading="lazy"
+              decoding="async"
+              alt="Interface de Sinistre et Conditions Générales : déclaration de sinistre, verdict justifié et clause du contrat surlignée dans le PDF"
+              data-i18n-alt="projects.sinistre.imgAlt">
+            <div class="project__body">
+              <h3 class="project__title">Sinistre &amp; Conditions Générales</h3>
+              <p class="project__kicker" data-i18n="projects.sinistre.tag">Couverture d'un sinistre par un contrat
+                d'assurance</p>
+              <p class="project__pitch" data-i18n="projects.sinistre.pitch">Dit si un sinistre est couvert par les
+                conditions générales d'un contrat d'assurance habitation, en citant les clauses. Chaque citation est
+                vérifiée mot pour mot dans le contrat, et le système sait répondre « ça dépend » ou « je ne sais
+                pas ».</p>
+              <ul class="tags">
+                <li class="tag">Python</li><li class="tag">RAG</li><li class="tag">BM25</li><li
+                  class="tag">LLM</li><li class="tag">Streamlit</li>
+              </ul>
+              <details class="project__details">
+                <summary data-i18n="projects.details">Détails techniques</summary>
+                <ul>
+                  <li data-i18n="projects.sinistre.b1">Parsing d'un contrat de 72 pages par la mise en page : ordre de
+                    lecture reconstitué, 76 articles, 52 clauses optionnelles, lexique et renvois internes.</li>
+                  <li data-i18n="projects.sinistre.b2">Recherche hybride : analyse de la déclaration par un LLM, BM25
+                    en français, puis ajout automatique des articles cités en renvoi, des définitions et des exclusions
+                    communes. Environ 15 % du contrat est envoyé au LLM par sinistre.</li>
+                  <li data-i18n="projects.sinistre.b3">Verdict appuyé uniquement sur les passages retrouvés ; chaque
+                    citation est vérifiée dans le texte sans LLM et surlignée dans le PDF. Un verdict sans citation
+                    valide devient « incertain ».</li>
+                  <li data-i18n="projects.sinistre.b4">Évalué sur 20 sinistres : 95,6 % des articles utiles retrouvés,
+                    18 verdicts corrects sur 20, 93 % de citations vérifiées, aucun sinistre déclaré couvert à
+                    tort.</li>
+                  <li data-i18n="projects.sinistre.b5">Python, BM25, LLM (API compatible OpenAI), PyMuPDF, RapidFuzz,
+                    Streamlit, pytest.</li>
+                </ul>
+              </details>
+              <p class="project__actions">
+                <a class="btn btn--primary btn--sm" href="https://sinistre-cg.streamlit.app/" target="_blank"
+                  rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> <span
+                    data-i18n="projects.demo">Démo en ligne</span></a>
+                <a class="btn btn--ghost btn--sm" href="https://github.com/rabieessayeh/sinistre-cg"
+                  target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+              </p>
+            </div>
+          </article>
+
+
           <article class="project">
             <img class="project__media" src="img/devis-ia-travaux.png" width="1400" height="875" loading="lazy"
               decoding="async"

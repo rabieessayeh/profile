@@ -39,6 +39,15 @@
       'projects.othersH3': 'Autres projets',
       'projects.githubLink': "Voir l'ensemble de mes dépôts sur GitHub →",
 
+      'projects.sinistre.tag': "Couverture d'un sinistre par un contrat d'assurance",
+      'projects.sinistre.imgAlt': "Interface de Sinistre et Conditions Générales : déclaration de sinistre, verdict justifié et clause du contrat surlignée dans le PDF",
+      'projects.sinistre.pitch': "Dit si un sinistre est couvert par les conditions générales d'un contrat d'assurance habitation, en citant les clauses. Chaque citation est vérifiée mot pour mot dans le contrat, et le système sait répondre « ça dépend » ou « je ne sais pas ».",
+      'projects.sinistre.b1': "Parsing d'un contrat de 72 pages par la mise en page : ordre de lecture reconstitué, 76 articles, 52 clauses optionnelles, lexique et renvois internes.",
+      'projects.sinistre.b2': "Recherche hybride : analyse de la déclaration par un LLM, BM25 en français, puis ajout automatique des articles cités en renvoi, des définitions et des exclusions communes. Environ 15 % du contrat est envoyé au LLM par sinistre.",
+      'projects.sinistre.b3': "Verdict appuyé uniquement sur les passages retrouvés ; chaque citation est vérifiée dans le texte sans LLM et surlignée dans le PDF. Un verdict sans citation valide devient « incertain ».",
+      'projects.sinistre.b4': "Évalué sur 20 sinistres : 95,6 % des articles utiles retrouvés, 18 verdicts corrects sur 20, 93 % de citations vérifiées, aucun sinistre déclaré couvert à tort.",
+      'projects.sinistre.b5': 'Python, BM25, LLM (API compatible OpenAI), PyMuPDF, RapidFuzz, Streamlit, pytest.',
+
       'projects.devis.tag': 'Devis de rénovation à partir de notes de visite',
       'projects.devis.imgAlt': 'Interface de Devis IA Travaux : notes de visite en texte libre et devis de rénovation chiffré par lot, avec quantités modifiables',
       'projects.devis.pitch': 'Transforme des notes de visite en devis de rénovation chiffré. Le LLM propose les lignes depuis une bibliothèque de prix ; chiffrage, TVA et totaux sont calculés par du code testé.',
@@ -184,6 +193,15 @@
       'projects.demo': 'Live demo',
       'projects.othersH3': 'Other projects',
       'projects.githubLink': 'See all my repositories on GitHub →',
+
+      'projects.sinistre.tag': 'Claim coverage against an insurance contract',
+      'projects.sinistre.imgAlt': 'Sinistre & Conditions Générales interface: claim description, justified verdict and the contract clause highlighted in the PDF',
+      'projects.sinistre.pitch': 'Decides whether a claim is covered by the general terms of a home insurance contract, citing the clauses. Every quote is checked word for word against the contract, and the system can answer "it depends" or "I don\'t know".',
+      'projects.sinistre.b1': 'Layout-aware parsing of a 72-page contract: reading order rebuilt, 76 articles, 52 optional clauses, glossary and internal cross-references.',
+      'projects.sinistre.b2': 'Hybrid retrieval: LLM analysis of the claim, French BM25, then automatic expansion with cross-referenced articles, definitions and common exclusions. About 15% of the contract is sent to the LLM per claim.',
+      'projects.sinistre.b3': 'The verdict relies only on the retrieved passages; every quote is verified against the text without an LLM and highlighted in the PDF. A verdict with no valid quote becomes "uncertain".',
+      'projects.sinistre.b4': 'Evaluated on 20 claims: 95.6% of relevant articles retrieved, 18 of 20 verdicts correct, 93% of quotes verified, no claim wrongly declared covered.',
+      'projects.sinistre.b5': 'Python, BM25, LLM (OpenAI-compatible API), PyMuPDF, RapidFuzz, Streamlit, pytest.',
 
       'projects.devis.tag': 'Renovation quotes from site-visit notes',
       'projects.devis.imgAlt': 'Devis IA Travaux interface: free-text site-visit notes and a priced renovation quote grouped by trade, with editable quantities',
